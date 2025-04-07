@@ -1,0 +1,35 @@
+
+
+/* Restore-backup */
+
+body { font-family: sans-serif; padding: 20px; }
+    ul { list-style-type: none; padding: 0; }
+    li { margin-bottom: 15px; }
+    button {
+      background-color: green;
+      color: white;
+      border: none;
+      padding: 6px 12px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .popup {
+      display: none;
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: #4CAF50;
+      color: white;
+      padding: 15px 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px #444;
+      z-index: 1000;
+    }
+    .popup button {
+      background: transparent;
+      color: white;
+      font-size: 16px;
+      float: right;
+      border: none;
+      cursor: pointer;
+    }

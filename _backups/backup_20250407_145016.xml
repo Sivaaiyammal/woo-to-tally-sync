@@ -1,0 +1,61 @@
+<ENVELOPE><HEADER><TALLYREQUEST>Import Data</TALLYREQUEST></HEADER><BODY><IMPORTDATA><REQUESTDESC><REPORTNAME>All Masters</REPORTNAME></REQUESTDESC><REQUESTDATA><TALLYMESSAGE>
+    <STOCKITEM NAME="Simple" ACTION="Create">
+      <NAME>Simple</NAME>
+      <BASEUNITS>Nos</BASEUNITS>
+      <OPENINGBALANCE>0 Nos</OPENINGBALANCE>
+    </STOCKITEM>
+    </TALLYMESSAGE><TALLYMESSAGE>
+    <STOCKITEM NAME="Divi Engine Logo Zipper Hoodie" ACTION="Create">
+      <NAME>Divi Engine Logo Zipper Hoodie</NAME>
+      <BASEUNITS>Nos</BASEUNITS>
+      <OPENINGBALANCE>0 Nos</OPENINGBALANCE>
+    </STOCKITEM>
+    </TALLYMESSAGE><TALLYMESSAGE>
+    <STOCKITEM NAME="WooCommerce &quot;Gimme the Money&quot; Zipper Hoodie" ACTION="Create">
+      <NAME>WooCommerce &quot;Gimme the Money&quot; Zipper Hoodie</NAME>
+      <BASEUNITS>Nos</BASEUNITS>
+      <OPENINGBALANCE>0 Nos</OPENINGBALANCE>
+    </STOCKITEM>
+    </TALLYMESSAGE><TALLYMESSAGE>
+    <STOCKITEM NAME="Divi Simplified Crop-top" ACTION="Create">
+      <NAME>Divi Simplified Crop-top</NAME>
+      <BASEUNITS>Nos</BASEUNITS>
+      <OPENINGBALANCE>0 Nos</OPENINGBALANCE>
+    </STOCKITEM>
+    </TALLYMESSAGE><TALLYMESSAGE>
+    <STOCKITEM NAME="Purple Divi Engine Text Zipper Hoodie" ACTION="Create">
+      <NAME>Purple Divi Engine Text Zipper Hoodie</NAME>
+      <BASEUNITS>Nos</BASEUNITS>
+      <OPENINGBALANCE>0 Nos</OPENINGBALANCE>
+    </STOCKITEM>
+    </TALLYMESSAGE><TALLYMESSAGE>
+    <STOCKITEM NAME="Dat Divi Engine Life Crop-top (3-Tone)" ACTION="Create">
+      <NAME>Dat Divi Engine Life Crop-top (3-Tone)</NAME>
+      <BASEUNITS>Nos</BASEUNITS>
+      <OPENINGBALANCE>0 Nos</OPENINGBALANCE>
+    </STOCKITEM>
+    </TALLYMESSAGE><TALLYMESSAGE>
+    <STOCKITEM NAME="Mens WordPress Hoodie" ACTION="Create">
+      <NAME>Mens WordPress Hoodie</NAME>
+      <BASEUNITS>Nos</BASEUNITS>
+      <OPENINGBALANCE>0 Nos</OPENINGBALANCE>
+    </STOCKITEM>
+    </TALLYMESSAGE><TALLYMESSAGE>
+    <STOCKITEM NAME="Divi Ninja Tee" ACTION="Create">
+      <NAME>Divi Ninja Tee</NAME>
+      <BASEUNITS>Nos</BASEUNITS>
+      <OPENINGBALANCE>0 Nos</OPENINGBALANCE>
+    </STOCKITEM>
+    </TALLYMESSAGE><TALLYMESSAGE>
+    <STOCKITEM NAME="Dat Divi Engine Life Hoodie - Limited Edition" ACTION="Create">
+      <NAME>Dat Divi Engine Life Hoodie - Limited Edition</NAME>
+      <BASEUNITS>Nos</BASEUNITS>
+      <OPENINGBALANCE>0 Nos</OPENINGBALANCE>
+    </STOCKITEM>
+    </TALLYMESSAGE><TALLYMESSAGE>
+    <STOCKITEM NAME="Mens Divi Hoodie" ACTION="Create">
+      <NAME>Mens Divi Hoodie</NAME>
+      <BASEUNITS>Nos</BASEUNITS>
+      <OPENINGBALANCE>0 Nos</OPENINGBALANCE>
+    </STOCKITEM>
+    </TALLYMESSAGE></REQUESTDATA></IMPORTDATA></BODY></ENVELOPE>
