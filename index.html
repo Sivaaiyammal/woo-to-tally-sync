@@ -6,6 +6,30 @@
   <link rel="stylesheet" href="css/style.css" class="src">
 </head>
 <body>
+
+  <!-- Add to top-right -->
+<button id="settingsBtn" class="settings-button">⚙️ Settings</button>
+
+<!-- Modal -->
+<div id="settingsModal" class="modal hidden">
+  <div class="modal-content">
+    <h2>Edit Config</h2>
+    <label>Consumer Key</label>
+    <input type="text" id="consumerKey">
+    
+    <label>Consumer Secret</label>
+    <input type="text" id="consumerSecret">
+    
+    <label>Site URL</label>
+    <input type="text" id="siteURL">
+
+    <label>Tally Company Name</label>
+    <input type="text" id="tallyCompany">
+    
+    <button onclick="saveConfig()">Save</button>
+    <button onclick="closeModal()">Cancel</button>
+  </div>
+</div>
   
 <div class="gradient-bg">
   <div class="content">
@@ -22,5 +46,5 @@
   </div>
 </div>
 
-<script src="myscripts.js"></script>
+<script src="script.js"></script>
 </body>
