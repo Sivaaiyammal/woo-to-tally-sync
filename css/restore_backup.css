@@ -1,35 +1,127 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+}
 
+.gradient-bg {
+  height: 100vh;
+  width: 100vw;
+  background: radial-gradient(circle at 20% 30%, #ff512f, #dd2476, #a944ff, #5f2eea);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: white;
+}
 
-/* Restore-backup */
+.backup-panel {
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 30px 40px;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.25);
+}
 
-body { font-family: sans-serif; padding: 20px; }
-    ul { list-style-type: none; padding: 0; }
-    li { margin-bottom: 15px; }
-    button {
-      background-color: green;
-      color: white;
-      border: none;
-      padding: 6px 12px;
-      cursor: pointer;
-      border-radius: 5px;
-    }
-    .popup {
-      display: none;
-      position: fixed;
-      top: 20px;
-      right: 20px;
-      background: #4CAF50;
-      color: white;
-      padding: 15px 20px;
-      border-radius: 5px;
-      box-shadow: 0 0 10px #444;
-      z-index: 1000;
-    }
-    .popup button {
-      background: transparent;
-      color: white;
-      font-size: 16px;
-      float: right;
-      border: none;
-      cursor: pointer;
-    }
+.backup-panel h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.backup-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.backup-list li {
+  background-color: rgba(255, 255, 255, 0.12);
+  margin: 12px 0;
+  padding: 14px 20px;
+  border-radius: 16px;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.backup-actions {
+  margin-top: 10px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.backup-list li b {
+  font-weight: bold;
+}
+
+.backup-list button,
+.backup-list form button {
+  border: none;
+  padding: 10px 18px;
+  border-radius: 999px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.backup-list button {
+  background-color: white;
+  color: #e17055;
+}
+
+.backup-list form button {
+  background-color: white;
+  color: #0984e3;
+}
+
+.backup-list button:hover,
+.backup-list form button:hover {
+  background-color: #f0f0f0;
+}
+
+/* Pagination links */
+.backup-panel a {
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+  margin: 0 10px;
+}
+
+/* Popup styling */
+.popup {
+  display: none;
+  position: fixed;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  color: #2ecc71;
+  padding: 14px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+  z-index: 9999;
+  min-width: 300px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.popup button {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 16px;
+  color: #888;
+  cursor: pointer;
+}

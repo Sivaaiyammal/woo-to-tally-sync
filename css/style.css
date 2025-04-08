@@ -1,67 +1,114 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', sans-serif;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    overflow: hidden;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  body::before {
-    content: '';
-    background: url('../css/Image/background.avif') no-repeat center center/cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -2;
-  }
+body, html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Segoe UI', sans-serif;
+}
 
-  body::after {
-    content: '';
-    background-color: rgba(0, 0, 0, 0.8); /* 50% black overlay */
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-  }
+.gradient-bg {
+  height: 100vh;
+  width: 100vw;
+  background: radial-gradient(circle at 20% 30%, #ff512f, #dd2476, #a944ff, #5f2eea);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
 
-  .container {
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.9);
-    padding: 40px;
-    border-radius: 20px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.3);
-  }
+.content {
+  max-width: 400px;
+  background-color: rgba(255, 255, 255, 0.139);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
 
   .logo {
     width: 120px;
     margin-bottom: 20px;
   }
 
-  h2 {
-    margin-bottom: 30px;
+  .content h2 {
+    font-size: 24px;
+    margin-bottom: 35px;
+  }
+
+  .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
   }
 
   button {
-    margin: 10px;
-    padding: 12px 25px;
-    font-size: 16px;
-    cursor: pointer;
-    border: none;
-    border-radius: 8px;
-    background-color: #fe7e16;
-    color: white;
-    transition: background-color 0.3s;
+    text-decoration: none;
+    padding: 12px 22px;
+    border-radius: 999px;
+    font-weight: bold;
+    border: 2px solid white;
+    background: white;
+    color: #190074;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   button:hover {
-    background-color: #ff7300;
+    background: #f0f0f0;
   }
-</style>
+
+
+  /* Sync-Products */
+
+  .content-lg {
+    background-color:rgb(134 134 134 / 14%);;
+    padding: 100px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  }
+
+  .content-lg h1, h3  {
+    color: white;
+    padding-bottom:  30px;
+  }
+
+  .content-lg p {
+    padding-bottom: 30px;
+  }
+
+  code {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+
+  ul {
+    padding-left: 25px;
+  }
+
+  ul li {
+    margin-bottom: 10px;
+  }
+
+  pre {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+    overflow-x: auto;
+    margin-bottom: 20px;
+  }
+
+  b {
+    color: #ffc400;
+  }
+
+  

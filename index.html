@@ -7,15 +7,19 @@
 </head>
 <body>
   
-<div class="container">
-  <img src="css/Image/logo.png" alt="Logo" class="logo">
-  <h2>EMTS Tally Sync Panel</h2>
+<div class="gradient-bg">
+  <div class="content">
+    <img src="css/Image/EMTS Logo.svg" alt="Logo" class="logo">
+    <h2>Tally Sync Panel</h2>
 
-  <button onclick="window.open('_template/sync-Products.php','_blank')">📦 Sync Products</button>
-  <button onclick="window.open('_template/restore-backup.php', '_blank')">♻️ Restore Backup</button>
-
-  <div id="result"></div>
-
+    <div class="button-group">
+      <button onclick="window.open('_template/sync-Products.php','_blank')">Sync Products</button>
+      <button onclick="window.open('_template/restore-backup.php', '_blank')">Restore Backup</button>
+    </div>
+  
+    <div id="result"></div>
+  
+  </div>
 </div>
 
 <script src="myscripts.js"></script>
