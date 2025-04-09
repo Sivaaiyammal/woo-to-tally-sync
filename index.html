@@ -13,21 +13,30 @@
 <!-- Modal -->
 <div id="settingsModal" class="modal hidden">
   <div class="modal-content">
-    <h2>Edit Config</h2>
-    <label>Consumer Key</label>
-    <input type="text" id="consumerKey">
+    <form id="configForm">
+      <h2>Edit Config</h2>
+      <label>Consumer Key</label>
+      <!-- <input type="text" name="consumerKey" style="width: 100%; margin-bottom: 10px;"><br> -->
+      <input type="text" name="consumerKey"><br>
     
-    <label>Consumer Secret</label>
-    <input type="text" id="consumerSecret">
+      <label>Consumer Secret</label>
+      <!-- <input type="text" id="consumerSecret" style="width: 100%; margin-bottom: 10px;"><br> -->
+      <input type="text" id="consumerSecret" ><br>
     
-    <label>Site URL</label>
-    <input type="text" id="siteURL">
+      <label>Site URL</label>
+      <!-- <input type="text" id="siteURL" style="width: 100%; margin-bottom: 10px;"><br> -->
+      <input type="text" id="siteURL" ><br>
 
-    <label>Tally Company Name</label>
-    <input type="text" id="tallyCompany">
+      <label>Tally Company Name</label>
+      <!-- <input type="text" id="tallyCompany" style="width: 100%; margin-bottom: 10px;"><br> -->
+      <input type="text" id="tallyCompany" ><br>
     
-    <button onclick="saveConfig()">Save</button>
-    <button onclick="closeModal()">Cancel</button>
+      <button onclick="saveConfig()" style="background-color: #4CAF50; color: white; border: none; padding: 8px 12px; border-radius: 5px;">Save</button>
+      <button onclick="closeModal()" style="background-color: #ccc; border: none; padding: 8px 12px; border-radius: 5px;">Cancel</button>
+      <!-- <button type="submit" style="background-color: #4CAF50; color: white; border: none; padding: 8px 12px; border-radius: 5px;">Save</button>
+      <button type="button" onclick="clearForm()" style="background-color: #ccc; border: none; padding: 8px 12px; border-radius: 5px;">Cancel</button> -->
+
+    </form>
   </div>
 </div>
   
